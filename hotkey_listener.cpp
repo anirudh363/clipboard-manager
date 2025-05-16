@@ -30,7 +30,7 @@ int main() {
 
     XSelectInput(display, root, KeyPressMask);
 
-    std::cout << "Listening for Meta+C (Win+C)...\n";
+    std::cout << "Listening for Meta+Z (Win+Z)...\n";
 
     while (true) {
         XEvent ev;
@@ -42,7 +42,7 @@ int main() {
             // Check if keycode matches and any of the modifiers match
             for (auto mod : modifiers) {
                 if (xkey.keycode == keycode && (xkey.state & mod) == mod) {
-                    std::cout << "Meta+C pressed! Launching clipboard manager...\n";
+                    std::cout << "Meta+Z pressed! Launching clipboard manager...\n";
                     system("./clipboard-manager &");
                     break;
                 }
