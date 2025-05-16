@@ -14,5 +14,6 @@ Use Meta+z/Win+c shortcut to open clipboard.
 ```bash
 git clone https://github.com/YOUR_USERNAME/clipboard-manager.git
 cd clipboard-manager
+chmod +x install.sh
 ./install.sh
 
