@@ -1,0 +1,11 @@
+[Unit]
+Description=Clipboard Hotkey Listener
+
+[Service]
+ExecStart=/usr/local/bin/hotkey_listener
+Restart=on-failure
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/%u/.Xauthority
+
+[Install]
+WantedBy=default.target
