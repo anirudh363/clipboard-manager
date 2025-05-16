@@ -43,7 +43,7 @@ int main() {
             for (auto mod : modifiers) {
                 if (xkey.keycode == keycode && (xkey.state & mod) == mod) {
                     std::cout << "Meta+Z pressed! Launching clipboard manager...\n";
-                    system("./clipboard-manager &");
+                    system("clipboard_window &");
                     break;
                 }
             }
