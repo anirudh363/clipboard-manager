@@ -5,6 +5,8 @@ Use Meta+z/Win+c shortcut to open clipboard.
 
 A custom clipboard manager for Ubuntu/Linux built from scratch in C++ using GTKmm (GTK3) for the user interface and X11 for global hotkey handling. The project focuses on understanding clipboard internals, global keyboard hooks, GUI event loops, and Linux user-level services such as systemd. It is primarily a learning-driven project rather than a fully polished product, and reflects hands-on exploration of real-world Linux desktop and X11 behavior.
 
+> ⚠️ Learning-focused project — not production-ready and may exhibit bugs or incomplete behavior.
+
 
 ## Requirements
 
